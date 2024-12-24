@@ -1,0 +1,26 @@
+body{
+  padding: 0;
+  margin: 0;
+
+}
+.navbar{
+  background-color: #002641;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  line-height: 60px;
+}
+.navbar a{
+  text-align: center;
+  color: #ffff;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar a:hover{
+  border-bottom: 1px solid green;
+}
+.navbar a b:hover{
+  color: green;
+}
