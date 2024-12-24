@@ -43,5 +43,50 @@ color: #002641;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
-  
+
+}
+.photos{
+  width: 60%;
+  height: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #002641; 
+  margin-top: 60px;
+
+}
+.photos p{
+  display: inline-flex;
+  padding:2px 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: green;
+
+}
+.photos img{
+  width: 100%;
+  height:260px;
+  position:relative;
+ 
+}
+.pieCasa{
+width: 100%;
+height: 130px;
+background-color: #002641;
+margin-top: 160px; 
+overflow: hidden; 
+}
+.pieCasa footer p{
+  line-height:3px;
+  text-align: center;
+  color: #ffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.pieCasa footer p::first-letter{
+  color: green;
+}
+@media (min-width:300px) and (max-width:460px) {
+  .pieCasa, footer{
+    display: none;
+  }
 }
