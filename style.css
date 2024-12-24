@@ -3,6 +3,19 @@ body{
   margin: 0;
 
 }
+.header header{
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+.header header h1{
+color: #002641;
+
+}
+.header header h1::first-letter{
+  color: green;
+
+}
 .navbar{
   background-color: #002641;
   text-align: center;
@@ -23,4 +36,12 @@ body{
 }
 .navbar a b:hover{
   color: green;
+}
+.className{
+  color: green;
+  padding: 8px 8px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  
 }
